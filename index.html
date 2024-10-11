@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сортировка методом пузырька</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Сортировка массива методом пузырька</h1>
+        <form id="sortForm">
+            <label>Введите элементы массива через запятую:</label>
+            <input type="text" id="arrayInput" placeholder="1, 4, 2, 5, 3">
+            <button type="button" onclick="bubbleSort()">Сортировать</button>
+        </form>
+
+        <form id="resultForm">
+            <label for="sortedArray">Отсортированный массив:</label>
+            <input type="text" id="sortedArray" readonly>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
